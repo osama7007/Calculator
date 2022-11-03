@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcultor</title>
+</head>
+<body>
+    <div class="calculator">
+        <button class="delete"  onclick= "DeleteOne()"> ⬅ </button>
+        <div class="screen">
+        </div> 
+            <div class="buttons">
+            <input type="button" value="1">
+            <input type="button" value="2">
+            <input type="button" value="3">
+            <input type="button" value="4">
+            <input type="button" value="5">
+            <input type="button" value="6">
+            <input type="button" value="7">
+            <input type="button" value="8">
+            <input type="button" value="9">
+            <input type="button" value="0">
+            <button onclick= "Add()"> +  </button>
+            <button onclick= "Minus()"> - </button>
+            <button onclick= "Multiply()"> *  </button>
+            <button onclick= "Divide()"> / </button>
+            <button class="equal" onclick= "result()" > = </button>
+            <button class="clear" onclick= "remove()" > C </button>
+            <button class="screenColor"  onclick= "ChangeColor()">Color</button>
+            <input  type="button" value="." >
+        </div>
+        <button class="resetColor" onclick="ResetColor()">RC</button>
+    </div>
+    <span style="color: white; margin-top: 50px">Osama Saad ©️</span>
+    <script src="index.js"></script>
+</body>
+</html>
